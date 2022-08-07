@@ -1,0 +1,76 @@
+/* Reset css */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 5px solid gray;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: deepskyblue;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.main input {
+  display: block;
+  width: 213px;
+  height: 47px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 30px;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.main button {
+  display: block;
+  width: 250px;
+  height: 47px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  margin-left: 120px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: chartreuse;
+}
+
+.main button:hover {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.main .container {
+  margin-top: 90px;
+}
+
+.main .close {
+  font-size: 40px;
+  margin-left: 60px;
+  position: absolute;
+  float: right;
+  margin-left: 458px;
+}
+
+.main .close:hover {
+  cursor: pointer;
+}
+
+.form i {
+  float: left;
+  margin-left: 90px;
+  margin-top: 20px;
+}
